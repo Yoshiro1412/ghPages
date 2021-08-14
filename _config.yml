@@ -34,6 +34,28 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Add collection support
+collections:
+  authors: 
+    output: true
+
+# Defaults avoid making configurations in every file
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
