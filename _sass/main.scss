@@ -87,7 +87,7 @@ h1{
 
 .explore-posts{
     margin-top: 3em;
-    margin-bottom: 4em;
+    margin-bottom: 1em;
     display: grid;
     grid-template-columns: 20vw 1fr;
     align-items: center;
@@ -122,6 +122,10 @@ h1{
             }
         }
     }
+}
+
+#top-pick{
+    height: 3rem;
 }
 
 .top-pick{
