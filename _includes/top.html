@@ -1,0 +1,22 @@
+<section class="top-pick">
+    <h2>top<br>pick<br>article</h2>
+    <ul>
+        <li class="active"><a href="">all posts</a></li>
+        {% for category in site.categories %}
+        <li><a href="">{{ category[0] }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <img src="assets/img/top.jpg" alt="">
+    <div class="preview-top">
+        <div>
+            <img src="assets/img/person.jpg" alt="">
+            <p>Alison Burgas</p>
+        </div>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa ducimus delectus ullam, laudantium minus voluptatibus distinctio totam accusamus ea voluptas saepe odio a perspiciatis ratione dolorem quas excepturi tempore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa ducimus delectus ullam, laudantium minus voluptatibus distinctio totam accusamus ea voluptas saepe odio a perspiciatis ratione dolorem quas excepturi tempore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa ducimus delectus ullam, laudantium minus voluptatibus distinctio totam accusamus ea voluptas saepe odio a perspiciatis ratione dolorem quas excepturi tempore.
+        </p>
+    </div>
+</section>

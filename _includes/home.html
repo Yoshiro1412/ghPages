@@ -1,0 +1,15 @@
+
+<h1>we are creative<br><span class="orange">&emsp;&emsp;&emsp;&ensp;&</span> innovative</h1>
+
+<div class="explore-posts">
+    <a href="#">explore more</a>
+    <img src="assets/img/home.jpg" alt="">
+    <div></div>
+    <div class="last-posts">
+        <ul>
+            {% for post in site.posts | limit: 3 %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
